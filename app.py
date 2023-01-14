@@ -10,7 +10,7 @@ def main_menuu(message):
 
 @bot.message_handler(commands=['start'])
 def startt(message):
-    bot.send_message(message.chat.id,help)
+    bot.send_message(message.chat.id, help)
 
 @bot.message_handler(commands=['help'])
 def helpp(message):
